@@ -1,0 +1,9 @@
+# Sensitive files
+credentials.json
+config.py
+
+# Logs and generated data
+logs/
+__pycache__/
+*.pyc
+*.log

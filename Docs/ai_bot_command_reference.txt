@@ -1,0 +1,53 @@
+AI Bot System - Command Reference
+
+📁 Core Commands
+----------------
+python ai_bot.py                        # Run AI bot
+python main_ai_hub.py                   # Start the full orchestrator
+python gui_dashboard.py                 # Launch GUI dashboard
+python external_api_bridge.py           # Fetch news, Finviz, SEC data
+python health_bot.py --full-sweep       # Run full health checkup
+python fixer_tool.py                    # Fix corrupted log files
+
+🔐 AES Vault
+------------
+python aes_vault.py gen                 # Generate encryption key
+python aes_vault.py enc <in> <out>      # Encrypt a file
+python aes_vault.py dec <in> <out>      # Decrypt a file
+
+📊 Profitability & Balance
+--------------------------
+"Simulate Profit" (GUI)                 # Runs profitability_bot.py
+Balance Sheet (GUI)                     # Pulls from Alpaca, routed via wealth_bot + legal_bot
+
+📈 Logs
+------
+ai_decisions.json                       # Decision memory log
+health_logs/                            # Per-bot health sweep logs
+fixer_tool.py                           # Removes corrupted log entries
+
+📤 Google Sheets
+----------------
+Auto-sync enabled                       # Portfolio, health, logs
+Manual sync button in GUI               # "Export Now" triggers
+
+📡 API & Security
+-----------------
+Integrated with NewsAPI, Finviz         # Real-time sentiment feed
+MFA + AES-256 + SHA-256                 # Security bot features
+
+🧠 AI Learning
+--------------
+Self-teaching strategy loop             # AI logs and refines decisions
+Logs routed to GUI + ai_decisions.json
+
+🧾 Legal & Wealth
+-----------------
+tax_bot.py                              # Monitors tax exposure, savings
+llc_bot.py / trust_bot.py               # Wealth planning for assets
+
+📌 Notes
+--------
+- Run all scripts from ai_bots/ folder
+- Streamlit GUI: http://localhost:8501
+- Run GUI only after ai_decisions.json is created

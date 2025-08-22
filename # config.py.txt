@@ -1,0 +1,4 @@
+# config.py
+API_KEY = "PK35P4A97A8DCC7BNRGQ"
+API_SECRET = "7Hih57eqLq5bKjFcDW8WiqXjHllOX2YjTZHOQow7"
+BASE_URL = "https://paper-api.alpaca.markets"

@@ -1,0 +1,52 @@
+[
+    {
+        "timestamp": "2025-08-21 00:15:07",
+        "symbol": "AAPL",
+        "invested": 1000,
+        "returned": 1100,
+        "pnl": 100,
+        "roi_percent": 10.0,
+        "strategy": "SMA-RSI Combo",
+        "notes": "Good entry timing"
+    },
+    {
+        "timestamp": "2025-08-21 00:59:13",
+        "symbol": "AAPL",
+        "invested": 1000,
+        "returned": 1100,
+        "pnl": 100,
+        "roi_percent": 10.0,
+        "strategy": "SMA-RSI Combo",
+        "notes": "Good entry timing"
+    },
+    {
+        "timestamp": "2025-08-21 01:12:46",
+        "symbol": "AAPL",
+        "invested": 1000,
+        "returned": 1100,
+        "pnl": 100,
+        "roi_percent": 10.0,
+        "strategy": "SMA-RSI Combo",
+        "notes": "Good entry timing"
+    },
+    {
+        "timestamp": "2025-08-21 13:21:07",
+        "symbol": "AAPL",
+        "invested": 1000,
+        "returned": 1100,
+        "pnl": 100,
+        "roi_percent": 10.0,
+        "strategy": "ProfitMax Strategy",
+        "notes": "Simulated trade"
+    },
+    {
+        "timestamp": "2025-08-21 23:47:00",
+        "symbol": "AAPL",
+        "invested": 1000,
+        "returned": 1100,
+        "pnl": 100,
+        "roi_percent": 10.0,
+        "strategy": "ProfitMax Strategy",
+        "notes": "Simulated trade"
+    }
+]

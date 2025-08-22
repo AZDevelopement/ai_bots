@@ -1,0 +1,32 @@
+[
+    {
+        "timestamp": "2025-08-20 10:52:11",
+        "strategy": "ProfitMax Strategy",
+        "action": "Buy AAPL",
+        "reason": "Strong RSI + Positive sentiment"
+    },
+    {
+        "timestamp": "2025-08-20 10:57:02",
+        "strategy": "Momentum Reversal",
+        "action": "Sell TSLA",
+        "reason": "Bearish MACD crossover detected"
+    },
+    {
+        "timestamp": "2025-08-21 00:14:49",
+        "strategy": "ProfitMax Strategy",
+        "action": "Buy AAPL",
+        "reason": "Strong RSI + Positive sentiment"
+    },
+    {
+        "timestamp": "2025-08-21 13:21:07",
+        "strategy": "ProfitMax Strategy",
+        "action": "Buy AAPL",
+        "reason": "Strong RSI + Positive sentiment"
+    },
+    {
+        "timestamp": "2025-08-21 23:47:00",
+        "strategy": "ProfitMax Strategy",
+        "action": "Buy AAPL",
+        "reason": "Strong RSI + Positive sentiment"
+    }
+]
